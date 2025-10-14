@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body{
+  background-color: #e2e2e2;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  text-align: center;
+}
+h1>span{
+  color: crimson;
+}
+#player{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: crimson;
+  border-radius: 50%;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: left 0.1s, bottom 0.1s;
+}
+
